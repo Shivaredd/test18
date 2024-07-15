@@ -17,10 +17,4 @@ resource "aws_security_group" "my_security_group" {
     cidr_blocks = var.https_cidr_blocks
   }
 
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-}
+  
