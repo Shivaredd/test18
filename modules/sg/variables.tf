@@ -13,15 +13,6 @@ variable "https_cidr_blocks" {
   type        = list(string)
 }
 
-variable "vpc_cidr_block" {
-  description = "The CIDR block for the VPC"
-  type        = string
-}
-
-variable "vpc_ipv6_cidr_block" {
-  description = "The IPv6 CIDR block for the VPC"
-  type        = string
-}
 
 
 
